@@ -66,3 +66,38 @@ letter-spacing: 8%;
 font-weight: 300;
 
 }
+.jeloe__wrp{
+    width: 620px;
+    height: 72px;
+    background-color: #3D1E19;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 146%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.jeloe__links{
+   text-transform: none;
+   text-decoration: none;
+   color: white;
+}
+.company__wrp{
+    display: flex;
+    gap: 84px;
+}
+.links__wrapper{
+    display: flex;
+    gap: 82px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+.company__links{
+    text-decoration: none;
+    color: #2B2A28;
+    font-weight: 700;
+}
