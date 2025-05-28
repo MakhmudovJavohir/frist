@@ -1,0 +1,117 @@
+@import url(../header/style.css);
+main{
+    // overflow: hidden;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.ukr__container{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.ukr__title{
+    width: 551px;
+    height: 150px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 0;
+    color: #2B2A28;
+    margin-bottom: 8px;
+}
+.ukr__text{
+    width: 502px;
+    height: 60px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #2B2A28;
+    margin-bottom: 26px;
+}
+.ukr__button{
+    width: 280px;
+    height: 66px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F39C32;
+    color: white;
+    font-weight: 700;
+
+}
+.ukr__button__wrp{
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+.logo__text{
+width: 171px;
+height: 90px;
+font-weight: 300;
+line-height: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 21px;
+}
+.logos__wrap{
+    display: flex;
+    justify-content: center;
+    justify-content: start;
+}
+.logo__words{
+    font-weight: 800;
+}
+.pocm__logo{
+    margin-right:64px;
+}
+.pocm__logo1{
+    margin-right: 32px;
+}
+.pocm__logo2{
+margin-right: 66px;}
+
+.logo__text2{
+    width: 250px;
+height: 203px;
+font-weight: 300;
+line-height: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 21px;
+}
+.logo__text3{
+    width: 236px;
+    height: 90px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 21px;  
+}
+.logo__text4{
+    width: 261px;
+    height: 120px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 21px;  
+}
+.logos__title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 800;
+   font-size: 36px;
+   color: #2B2A28;
+   margin-bottom: 33px;
+}
+.logos__container{
+    width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-left: 61px;
+    border: none;
+    margin-top: 74px;
+    border-radius:8px ;
+    box-shadow: 3px 3px 3px 3px;
+}

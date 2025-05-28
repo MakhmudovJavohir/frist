@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+header {
+  background-color: #FFFBF6;
+}
+
 main {
   padding: 0;
   width: 100%;
