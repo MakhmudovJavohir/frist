@@ -1,6 +1,6 @@
 @import url(../header/style.css);
 main{
-    // overflow: hidden;
+    overflow: hidden;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -113,5 +113,88 @@ margin-top: 21px;
     border: none;
     margin-top: 74px;
     border-radius:8px ;
-    box-shadow: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 1px 1px;
 }
+.komer1{
+    width: 370px;
+    height: 460px;
+    background-color: white;
+}
+.komer1__title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300px;
+    font-size: 30px;    
+    margin-top: 36px;
+    margin-left: 50px;
+}
+.komer1__text{
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 9px;
+    margin-bottom: 14px;
+}
+.komer1 :nth-child(4){
+    margin-left: 50px;
+}
+.catalog__title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    color: #2B2A28;
+    margin-top: 145px;
+    margin-left: 375px;
+    margin-bottom: 21px;
+}
+.komer__wrp{
+    display: flex;
+    margin-left: 375px;
+    gap: 30px;
+}
+.sadovoe__wrp{
+    width: 770;
+    height: 320px;
+    margin-left: 375px;
+    margin-top: 29px;
+    display: flex;
+    gap: 59px;
+    margin-top: 145px;
+}
+.sadovoe__title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300px;
+    font-size: 30px;    
+    margin-top: 49px;
+    margin-left: 50px;
+    margin-bottom: 8px;
+}
+.sadovoe__text{
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-size: 15px;
+    margin-left: 50px;
+    width: 236px;
+    height: 112px;
+    margin-bottom: 28px;
+    line-height: 28px;
+}
+.sadovoe__img{
+    margin-left:50px ;
+}
+.sec2{
+    position: relative;
+    &__img{
+        position: absolute;
+        left: 665px;
+        top: 227px;
+        z-index: -1;
+    }
+}
+.sec3{
+    height:1920px ;
+    background-color: #FFFBF6;
+}
+
