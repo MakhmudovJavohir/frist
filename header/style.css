@@ -7,7 +7,7 @@ header {
   background-color: #FFFBF6;
 }
 
-main {
+.header__main {
   padding: 0;
   width: 100%;
   max-width: 1920px;
